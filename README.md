@@ -14,4 +14,4 @@
 
 ## You can get it from Chrome Webstore. But I haven't uploaded to chrome webstore yet.
 
-This extension uses API from [www.youtubeinmp3.com][http://www.youtubeinmp3.com/]
+This extension uses API from [www.youtubeinmp3.com](http://www.youtubeinmp3.com/)
