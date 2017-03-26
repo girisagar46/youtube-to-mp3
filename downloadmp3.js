@@ -18,7 +18,7 @@ function addButton() {
     btn.setAttribute('class', 'yt-subscription-button yt-uix-button yt-uix-button-subscribe-branded');
     btn.style.marginLeft = '10px';
     var txt = document.createElement('span');
-    txt.setAttribute('id','stpdownload');      
+    txt.setAttribute('id','download');      
     txt.appendChild(document.createTextNode('Download MP3'));
     txt.setAttribute('class', 'yt-uix-button-content');
     btn.appendChild(txt);
