@@ -1,0 +1,19 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "homepage_url": "https://girisagar46.github.io",
+    "description":  "Adds a Download MP3 button on YouTube which lets you download MP3 of current video.",
+    "name":         "YouTube To MP3",
+    "version":      "1.0",
+    "manifest_version": 2,
+    "icons": {
+		"16": "images/down16.png",
+		"48": "images/down48.png",
+		"128": "images/down128.png"
+    },   
+    "content_scripts": [{
+        "js": ["main.js"],
+        "matches": [ "*://*.youtube.com/*" ]
+    }],
+    "web_accessible_resources": ["downloadmp3.js"]
+}
